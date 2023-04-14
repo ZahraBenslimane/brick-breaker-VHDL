@@ -1,2 +1,2 @@
-# brick-breaker-with-VHDL
+# brick-breake-VHDL
 Réalisation d'une console de jeu de casse biques sur FPGA
