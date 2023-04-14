@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_Test_Mode.srcs/sources_1/new/Tempo_pause.vhd" \
+"../../../../project_Test_Mode.srcs/sources_1/new/Timer_Lost.vhd" \
+"../../../../project_Test_Mode.srcs/sources_1/new/mae.vhd" \
+"../../../../project_Test_Mode.srcs/sources_1/new/mode.vhd" \
+"../../../../project_Test_Mode.srcs/sim_1/new/simu_mode.vhd" \
+
+# Do not sort compile order
+nosort

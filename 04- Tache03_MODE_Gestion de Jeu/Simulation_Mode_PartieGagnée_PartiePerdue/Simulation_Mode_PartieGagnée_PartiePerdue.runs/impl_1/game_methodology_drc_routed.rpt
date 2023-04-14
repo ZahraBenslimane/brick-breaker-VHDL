@@ -1,0 +1,167 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Jan 19 19:04:54 2021
+| Host         : LAPTOP-1O2DVROB running 64-bit major release  (build 9200)
+| Command      : report_methodology -file game_methodology_drc_routed.rpt -pb game_methodology_drc_routed.pb -rpx game_methodology_drc_routed.rpx
+| Design       : game
+| Device       : xc7a100tcsg324-3
+| Speed File   : -3
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 26
++-----------+----------+------------------------------+------------+
+| Rule      | Severity | Description                  | Violations |
++-----------+----------+------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert | 1          |
+| TIMING-17 | Warning  | Non-clocked sequential cell  | 24         |
+| TIMING-20 | Warning  | Non-clocked latch            | 1          |
++-----------+----------+------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell My_Mode/My_Timer_Lost/s_Game_Lost_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) My_Mode/My_Timer_Lost/s_Game_Lost_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_MAE/FSM_sequential_PRES_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_MAE/FSM_sequential_PRES_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_MAE/FSM_sequential_PRES_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_Fin_Tempo_Pause_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Tempo_Pause/s_cpt_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin My_Mode/My_Timer_Lost/s_cpt_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin game_select/FSM_sequential_EP_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin game_select/FSM_sequential_EP_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin master_slave_select/FSM_sequential_EP_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin master_slave_select/FSM_sequential_EP_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch My_Mode/My_Timer_Lost/s_Game_Lost_reg cannot be properly analyzed as its control pin My_Mode/My_Timer_Lost/s_Game_Lost_reg/G is not reached by a timing clock
+Related violations: <none>
+
+
