@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 19 21:38:55 2021
+# Process ID: 12184
+# Current directory: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13740 C:\Users\zahra\Downloads\Tache_1-20210119T093531Z-001\project_2_withraouf\project_2_withraouf.xpr
+# Log file: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/vivado.log
+# Journal file: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source simu.tcl
+run 100 ms
+save_project_as Simulation_IP_Rotary C:/Users/zahra/Documents/Simulation_IP_Rotary -force
+close_sim

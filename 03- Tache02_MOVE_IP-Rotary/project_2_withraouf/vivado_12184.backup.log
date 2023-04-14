@@ -1,0 +1,70 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan 19 21:38:55 2021
+# Process ID: 12184
+# Current directory: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13740 C:\Users\zahra\Downloads\Tache_1-20210119T093531Z-001\project_2_withraouf\project_2_withraouf.xpr
+# Log file: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/vivado.log
+# Journal file: C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:11 . Memory (MB): peak = 673.773 ; gain = 51.918
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'simu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj simu_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 60c1364258a94a2b9f7d00ed1b874d87 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot simu_behav xil_defaultlib.simu -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/zahra/Downloads/Tache_1-20210119T093531Z-001/project_2_withraouf/project_2_withraouf.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simu_behav -key {Behavioral:sim_1:Functional:simu} -tclbatch {simu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source simu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 747.195 ; gain = 38.773
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:16 . Memory (MB): peak = 747.195 ; gain = 38.773
+run 100 ms
+run: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 747.855 ; gain = 0.000
+save_project_as Simulation_IP_Rotary C:/Users/zahra/Documents/Simulation_IP_Rotary -force
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 785.145 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 20 12:52:31 2021...
