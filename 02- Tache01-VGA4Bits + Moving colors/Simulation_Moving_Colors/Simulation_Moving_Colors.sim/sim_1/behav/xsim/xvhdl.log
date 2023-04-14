@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.srcs/sources_1/new/Clkdiv_10MHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Clkdiv_10MHz'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.srcs/sources_1/new/Compteurs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Compteurs'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.srcs/sources_1/new/MAE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MAE'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.srcs/sources_1/imports/Downloads/Moving_Colors.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Moving_Colors'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.srcs/sim_1/new/simu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'simu'

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov  8 18:26:59 2021
+# Process ID: 2832
+# Current directory: C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17140 C:\Users\zahra\Documents\01- EEA Sorbonne Université\01- L3 EEA\01- L3 EEA First Semester\01- Casse Brique\02- Tache01-VGA4Bits + Moving colors\Simulation_Moving_Colors\Simulation_Moving_Colors.xpr
+# Log file: C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/vivado.log
+# Journal file: C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/zahra/Documents/01- EEA Sorbonne Université/01- L3 EEA/01- L3 EEA First Semester/01- Casse Brique/02- Tache01-VGA4Bits + Moving colors/Simulation_Moving_Colors/Simulation_Moving_Colors.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source simu.tcl
+close_sim

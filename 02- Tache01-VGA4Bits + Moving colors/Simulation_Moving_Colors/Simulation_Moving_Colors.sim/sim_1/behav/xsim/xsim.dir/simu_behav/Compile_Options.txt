@@ -1,0 +1,1 @@
+-wto "7c2d97dad4024d70ab475e0715f5540b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "simu_behav" "xil_defaultlib.simu" -log "elaborate.log" 
